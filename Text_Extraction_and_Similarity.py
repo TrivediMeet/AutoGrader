@@ -10,7 +10,7 @@ spacy.load("en_core_web_sm")
 
 # Load the API key from secrets
 
-API_KEY = "AIzaSyABAtxu14YVOH2mNis9N12VdWXGF0egB5c"
+API_KEY = "YOUR_API_KEY"
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
